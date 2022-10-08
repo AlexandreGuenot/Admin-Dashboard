@@ -5,68 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/1c8e35d7cb.js" crossorigin="anonymous"></script>
-    <title>Admin Dashboard🧮</title>
+    <script src="https://kit.fontawesome.com/f04869aa49.js" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="navbar">
-            <div class="logo">CLASSROOM</div>
-            <div class="profile">
+    <div class="wrapper"> <!-- Whole Container-->
+        <div class="side-bar"> <!-- Whole Side-bar -->
+            <!--logo-->
+            <div class="logo">
+                CLASSROOM
+            </div>      
+            <!--student-->
+            <div class="student">
                 <div class="profile-pic">
-                    <img src="./images/profile-pic.webp"/>
+                    <img src="./images/profile_pic.png" alt="">
                 </div>
                 <div class="fullname">
-                    Shelby Cooper
+                    Finn Shelby
                 </div>
                 <div class="grade">
-                    Grade 4
+                    Grade 5
                 </div>
             </div>
-            <ul class="list-links">
-                <li>
-                    <i class="fa-solid fa-graduation-cap fa-2x"></i> 
-                    <a href="#profile">My Profile</a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-list-check fa-2x"></i>
-                    <a href="#tasks">Home Tasks</a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-calendar-days fa-2x"></i>
-                    <a href="#schedule">Schedule</a>
-                </li>
-                <li>
-                    <i class="fa-solid fa-comment fa-2x"></i>
-                    <a href="#chats">Chat</a>
-                </li>
+            <!--links-->
+            <ul class="links">
+                <li class="link-item"><a href="#"><i class="fa-solid fa-graduation-cap fa-2x"></i>My Profile</a></li>
+                <li class="link-item"><a href="#"><i class="fa-solid fa-list-check fa-2x"></i>Home Tasks</a></li>
+                <li class="link-item"><a href="#"><i class="fa-solid fa-calendar-days fa-2x"></i>Schedule</a></li>
+                <li class="link-item"><a href="#"><i class="fa-brands fa-rocketchat fa-2x"></i>Chat</a></li>
             </ul>
-        </div>
-        <!--end navbar-->
-        <div class="interface">
+        </div>  <!-- End Side-bar -->
+        <div class="main-content"> <!-- Whole Main Page -->
             <div class="top-bar">
-                <div class="left-top">
-                    <div class="date-container">
-                        <div class="date">5 NOV</div>
-                        <div class="clock">08:25</div>
+                <!-- left -->
+                <div class="left">
+                    <div class="date_time">
+                        <div class="date">
+                            5 NOV
+                        </div>
+                        <div class="time">
+                            08:45
+                        </div>
                     </div>
-                    <div class="day-container">
-                        <div class="week-day">FRIDAY</div>
+                    <div class="week-day">
+                        FRIDAY
                     </div>
                 </div>
-                <div class="right-top">
-                    <div class="search-bar">
-                        <input type="text" placeholder="Search">
+                <!-- right -->
+                <div class="right">
+                    <input type="text" placeholder="Search">
+                    <div class="notifications">
+                        <a href="#"><i class="fa-solid fa-bell fa-2x"></i></a>
                     </div>
-                    <div class="classmates">classmates</div>
                 </div>
-               
-            </div>
-            <div class="underliner"></div>
+            </div>   <!-- End Top-bar -->   
+            <div class="interface">
+                interface
+            </div> <!-- End Interface -->         
+        </div> <!-- End Main Page -->
 
-        </div>
-        <!--end interface-->
-    </div>
-    <!--end wrapper-->
+    </div> <!-- End Container-->
 </body>
 </html>
