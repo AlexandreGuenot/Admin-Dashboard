@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 body {
     font-family: 'BioRhyme', serif;
     margin: 0;
     padding: 25rem;
-    height: 70vh;
+    height: 100vh;
     box-sizing: border-box;
     background-color: lightgrey;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 ul, a{
     margin: 0;
@@ -79,7 +79,6 @@ ul, a{
     grid-template-rows: 1fr 5fr;
 }
 .main-content .top-bar{
-    border: 2px solid blue;
     display: flex;
     justify-content: space-between;
 }
@@ -95,7 +94,8 @@ ul, a{
     border-radius: 8px;
 }
 .left .week-day{
-    font-size: 35px;
+    font-size: 45px;
+    margin-left: 500px;
     font-weight: bold;
     font-style: italic;
 }
@@ -123,4 +123,55 @@ ul, a{
 .right a:hover{
     color:rgb(118, 117, 118);
     transition: all 0.3s ease;
+}
+.interface{
+    display: grid;
+    gap: 30px;
+    margin: 40px 25px;
+}
+.card .timing{
+    margin-right: 20px;
+    font-size: 30px;
+} 
+.interface .card {
+    display: flex;
+    align-items: center;
+}
+.interface .class {
+    background-color: bisque;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding: 25px;
+}
+.teacher img{
+    width: 90px;
+    height: 110px;
+    border-radius: 20%;
+} 
+.pic-description img{
+    width: 250px;
+    border-radius: 10px;
+}
+.teacher .fullname{
+    text-align: center;
+    line-height: 18px;
+}
+.subject .title{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 45px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.subject p {
+    font-family: 'Old Standard TT', serif;
+    color: #5b5b5c;
+    font-size: 22px;
+    width: 300px;
+    text-align: center;
+}
+.timing{
+    width: 270px;
 }
